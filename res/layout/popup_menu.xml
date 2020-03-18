@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageMenu"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_menu" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageMenu">
+
+        <TableRow
+            android:id="@+id/row1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageProfil"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/image_profile" />
+
+                <TextView
+                    android:id="@+id/textProfil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Profil &amp; Kurse"
+                    android:textColor="?attr/colorMode"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageProfil"
+                    app:layout_constraintStart_toEndOf="@id/imageProfil"
+                    app:layout_constraintTop_toTopOf="@+id/imageProfil" />
+
+                <TextView
+                    android:id="@+id/bar1"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?attr/colorMode"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageProfil" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageMessage"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/image_notification" />
+
+                <TextView
+                    android:id="@+id/textMessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Benachrichtigungen"
+                    android:textColor="?attr/colorMode"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageMessage"
+                    app:layout_constraintStart_toEndOf="@id/imageMessage"
+                    app:layout_constraintTop_toTopOf="@+id/imageMessage" />
+
+                <TextView
+                    android:id="@+id/bar2"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="16dp"
+                    android:background="?attr/colorMode"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageMessage" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/layoutDarkMode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageDarkMode"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="6dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"
+                    app:srcCompat="@drawable/image_darkmode" />
+
+                <TextView
+                    android:id="@+id/textDarkMode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Dark Mode"
+                    android:textColor="?attr/colorMode"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageDarkMode"
+                    app:layout_constraintStart_toEndOf="@id/imageDarkMode"
+                    app:layout_constraintTop_toTopOf="@+id/imageDarkMode" />
+
+                <TextView
+                    android:id="@+id/spacer"
+                    android:layout_width="1dp"
+                    android:layout_height="16dp"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/transparent"
+                    android:visibility="invisible"
+                    app:layout_constraintStart_toEndOf="@id/imageDarkMode"
+                    app:layout_constraintTop_toBottomOf="@+id/textDarkMode"
+                    app:layout_constraintBottom_toBottomOf="parent" />
+
+                <TextView
+                    android:id="@+id/bar3"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="8dp"
+                    android:background="?attr/colorMode"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+
+                <ImageView
+                    android:id="@+id/darkModeOn"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:foregroundGravity="left"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textDarkMode"
+                    app:layout_constraintTop_toBottomOf="@+id/imageDarkMode"
+                    app:srcCompat="@drawable/darkmode_on" />
+
+                <ImageView
+                    android:id="@+id/darkModeOff"
+                    android:layout_width="0dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:foregroundGravity="left"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="@+id/textDarkMode"
+                    app:layout_constraintTop_toBottomOf="@+id/imageDarkMode"
+                    app:srcCompat="@drawable/darkmode_off" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageAbout"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:layout_marginBottom="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/image_infos" />
+
+                <TextView
+                    android:id="@+id/textAbout"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:text="Über"
+                    android:textColor="?attr/colorMode"
+                    app:layout_constraintBottom_toBottomOf="@+id/imageAbout"
+                    app:layout_constraintStart_toEndOf="@id/imageAbout"
+                    app:layout_constraintTop_toTopOf="@+id/imageAbout" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

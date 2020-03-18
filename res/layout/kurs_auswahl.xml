@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent">
+
+    <Button
+        android:id="@+id/p2PopupBearbeiten"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/button_primary"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Bearbeiten"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/p2PopupLoeschenKlein"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_toEndOf="@id/p2PopupBearbeiten"
+        android:layout_toRightOf="@id/p2PopupBearbeiten"
+        android:background="@drawable/button_primary"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="Löschen"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="16sp" />
+</LinearLayout>

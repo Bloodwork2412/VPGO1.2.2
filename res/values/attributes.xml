@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<resources>
+    <attr name="colorEdgeTop" format="reference"/>
+    <attr name="colorEdgeBottom" format="reference"/>
+    <attr name="colorEdgeP2Top" format="reference"/>
+    <attr name="colorEdgeBack" format="reference"/>
+    <attr name="colorAccentTop" format="reference"/>
+    <attr name="colorAccentBottom" format="reference"/>
+    <attr name="onEdgeTop" format="reference"/>
+    <attr name="onEdgeBottom" format="reference"/>
+    <attr name="onAccentTop" format="reference"/>
+    <attr name="onAccentBottom" format="reference"/>
+    <attr name="colorMode" format="reference"/>
+    <attr name="colorErrorX" format="reference"/>
+    <attr name="kursButton" format="reference"/>
+    <attr name="colorControlNormalX" format="reference"/>
+    <attr name="colorControlActivatedX" format="reference"/>
+</resources>

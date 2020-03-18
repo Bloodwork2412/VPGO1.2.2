@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vp_go">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:name=".Notifications"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/doodleLight">
+
+        <activity android:name=".KurseAendernPage"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan">
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustNothing">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+
+        <service android:name=".BackgroundJob"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+
+        <service android:name=".DailyJob"
+            android:permission="android.permission.BIND_JOB_SERVICE"/>
+        <receiver android:name=".BootReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.HOME" />
+            </intent-filter>
+        </receiver>
+        <service
+            android:name=".BootService"
+            android:enabled="true"
+            android:exported="true"></service>
+        <receiver android:name=".DailyReceiver"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

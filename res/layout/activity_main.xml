@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activityMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/onEdgeBottom"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/p1TopGradient"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/background_p1"
+        app:layout_constraintBottom_toTopOf="@+id/p1ScrollNachricht"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_editor_absoluteX="38dp" />
+
+    <ImageView
+        android:id="@+id/imageMenu1"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_menu" />
+
+    <ImageView
+        android:id="@+id/p1NeuLaden"
+        android:layout_width="41dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="neuLaden"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_reload" />
+
+    <TextView
+        android:id="@+id/p1TagBottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/dimView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1Mode" />
+
+
+    <TextView
+        android:id="@+id/p1TagDavorText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:onClick="tagDavor"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/p1TagBottom" />
+
+    <TextView
+        android:id="@+id/p1TagDanachText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:onClick="tagDanach"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/p1TagBottom" />
+
+
+    <TextView
+        android:id="@+id/p1Version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:paddingLeft="2dp"
+        android:singleLine="true"
+        android:text="---"
+        android:textColor="?attr/onEdgeBottom"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/p1Tag" />
+
+    <TextView
+        android:id="@+id/p1Tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="---"
+        android:textAllCaps="false"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/p1NeuLaden" />
+
+    <ScrollView
+        android:id="@+id/p1ScrollNachricht"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/p1Mode"
+        app:layout_constraintTop_toBottomOf="@+id/p1Version">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/nachrichtLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/p1Nachrichten"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="24dp"
+                android:background="@drawable/nachrichten"
+                android:paddingLeft="26dp"
+                android:paddingTop="4dp"
+                android:paddingRight="2dp"
+                android:paddingBottom="4dp"
+                android:textColor="?attr/onEdgeBottom"
+                android:textSize="15sp"
+                android:visibility="visible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/p1KeinEntfall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="24dp"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:lineSpacingExtra="8sp"
+                android:textColor="?attr/colorEdgeBottom"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p1Nachrichten" />
+
+            <HorizontalScrollView
+                android:id="@+id/p1ScrollHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:visibility="invisible"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/p1Nachrichten">
+
+                <TableLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:id="@+id/p1LayoutHorizontal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:id="@+id/p1Art"
+                                android:layout_width="86dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="4dp"
+                                android:background="@drawable/art"
+                                android:hint="@string/p1Art"
+                                android:text="@string/p1Art"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintEnd_toStartOf="@+id/p1Stunde"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent" />
+
+                            <TextView
+                                android:id="@+id/p1Stunde"
+                                android:layout_width="40dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="2dp"
+                                android:background="@drawable/chart_top"
+                                android:text="@string/p1Stunde"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Art"
+                                app:layout_constraintEnd_toStartOf="@+id/p1Fach"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toEndOf="@+id/p1Art"
+                                app:layout_constraintTop_toTopOf="@+id/p1Art" />
+
+                            <TextView
+                                android:id="@+id/p1Fach"
+                                android:layout_width="60dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="2dp"
+                                android:background="@drawable/chart_top"
+                                android:hint="@string/p1Fach"
+                                android:text="@string/p1Fach"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Stunde"
+                                app:layout_constraintEnd_toStartOf="@+id/p1Vertreter"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintStart_toEndOf="@+id/p1Stunde"
+                                app:layout_constraintTop_toTopOf="@+id/p1Stunde" />
+
+                            <TextView
+                                android:id="@+id/p1Vertreter"
+                                android:layout_width="60dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="2dp"
+                                android:background="@drawable/chart_top"
+                                android:hint="@string/p1Vertreter"
+                                android:text="@string/p1Vertreter"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Fach"
+                                app:layout_constraintStart_toEndOf="@+id/p1Fach"
+                                app:layout_constraintTop_toTopOf="@+id/p1Fach" />
+
+
+                            <TextView
+                                android:id="@+id/p1RaumWithout"
+                                android:layout_width="90dp"
+                                android:layout_height="0dp"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="@drawable/chart_top"
+                                android:hint="@string/p1Raum"
+                                android:text="@string/p1Raum"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Vertreter"
+                                app:layout_constraintEnd_toStartOf="@+id/p1NotizWithout"
+                                app:layout_constraintStart_toEndOf="@+id/p1Vertreter"
+                                app:layout_constraintTop_toTopOf="@+id/p1Vertreter" />
+
+                            <TextView
+                                android:id="@+id/p1NotizWithout"
+                                android:layout_width="0dp"
+                                android:layout_height="0dp"
+                                android:layout_marginEnd="4dp"
+                                android:background="@drawable/notiz"
+                                android:text="Notiz"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1RaumWithout"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintStart_toEndOf="@id/p1RaumWithout"
+                                app:layout_constraintTop_toTopOf="@+id/p1RaumWithout" />
+
+
+                            <TextView
+                                android:id="@+id/p1Klasse"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="2dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="@drawable/chart_top"
+                                android:singleLine="true"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Fach"
+                                app:layout_constraintEnd_toStartOf="@+id/p1RaumWith"
+                                app:layout_constraintStart_toEndOf="@+id/p1Vertreter"
+                                app:layout_constraintTop_toTopOf="@+id/p1Fach"
+                                app:layout_constraintVertical_bias="0.0" />
+
+                            <TextView
+                                android:id="@+id/p1RaumWith"
+                                android:layout_width="90dp"
+                                android:layout_height="0dp"
+                                android:layout_marginEnd="2dp"
+                                android:background="@drawable/chart_top"
+                                android:hint="@string/p1Raum"
+                                android:text="@string/p1Raum"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1Vertreter"
+                                app:layout_constraintEnd_toStartOf="@+id/p1NotizWith"
+                                app:layout_constraintTop_toTopOf="@+id/p1Vertreter" />
+
+                            <TextView
+                                android:id="@+id/p1NotizWith"
+                                android:layout_width="54dp"
+                                android:layout_height="0dp"
+                                android:layout_marginEnd="4dp"
+                                android:background="@drawable/notiz"
+                                android:text="Notiz"
+                                android:textColor="?attr/onEdgeBottom"
+                                android:textSize="14sp"
+                                android:textStyle="bold"
+                                android:visibility="invisible"
+                                app:layout_constraintBottom_toBottomOf="@+id/p1RaumWith"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintTop_toTopOf="@+id/p1RaumWith" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <androidx.core.widget.NestedScrollView
+                            android:id="@+id/p1ScrollInner"
+                            android:layout_width="wrap_content"
+                            android:layout_height="100dp"
+                            android:layout_marginStart="2dp"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="0dp"
+                            android:verticalScrollbarPosition="left"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/p1ScrollLayout"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:visibility="visible">
+
+                                <TableLayout
+                                    android:id="@+id/p1TableArt"
+                                    android:layout_width="83dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="5dp"
+                                    android:layout_marginTop="4dp"
+                                    app:layout_constraintEnd_toStartOf="@id/p1TableStunde"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"></TableLayout>
+
+                                <TableLayout
+                                    android:id="@+id/p1TableStunde"
+                                    android:layout_width="42dp"
+                                    android:layout_height="wrap_content"
+                                    app:layout_constraintEnd_toStartOf="@id/p1TableFach"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableArt"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+                                <TableLayout
+                                    android:id="@+id/p1TableFach"
+                                    android:layout_width="62dp"
+                                    android:layout_height="wrap_content"
+                                    app:layout_constraintEnd_toStartOf="@id/p1TableLehrer"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableStunde"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+                                <TableLayout
+                                    android:id="@+id/p1TableLehrer"
+                                    android:layout_width="62dp"
+                                    android:layout_height="wrap_content"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableFach"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+
+                                <TableLayout
+                                    android:id="@+id/p1TableKlasse"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    app:layout_constraintEnd_toStartOf="@id/p1TableRaumWith"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableLehrer"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+                                <TableLayout
+                                    android:id="@+id/p1TableRaumWithout"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="6dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableLehrer"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+
+                                <TableLayout
+                                    android:id="@+id/p1TableRaumWith"
+                                    android:layout_width="150dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="6dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@id/p1TableKlasse"
+                                    app:layout_constraintTop_toTopOf="@id/p1TableArt"></TableLayout>
+
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </androidx.core.widget.NestedScrollView>
+                    </TableRow>
+                </TableLayout>
+            </HorizontalScrollView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/p1Mode"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/btn_secondary_p1"
+        android:onClick="modeSwitch"
+        android:textColor="?attr/colorMode"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/spacerModeR"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@id/spacerModeL" />
+
+    <TextView
+        android:id="@+id/spacerModeL"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toStartOf="@+id/p1Mode"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/p1Mode" />
+
+    <TextView
+        android:id="@+id/spacerModeR"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/p1Mode"
+        app:layout_constraintTop_toTopOf="@id/p1Mode" />
+
+    <TextView
+        android:id="@+id/dimView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/background_dim"
+        android:translationZ="10dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/transparent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/p2Klasse2"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/klasse"
+        android:ems="10"
+        android:focusable="true"
+        android:gravity="start|center_vertical"
+        android:importantForAutofill="no"
+        android:inputType="text"
+        android:maxLength="3"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:textColor="?attr/onEdgeTop"
+        android:textColorHighlight="?attr/onEdgeTop"
+        android:textColorHint="?attr/onEdgeTop"
+        android:textColorLink="?attr/onEdgeTop"
+        android:textCursorDrawable="@drawable/cursor_color_accent"
+        android:textSize="30sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/p2KlasseSpeichern2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_primary"
+        android:onClick="klasseButton"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:text="speichern"
+        android:textColor="?attr/onEdgeBottom"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/p2Klasse2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

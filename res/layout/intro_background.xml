@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/intro_background_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_p2"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/topBar"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="-16dp"
+        android:background="?attr/onEdgeBottom"
+        app:layout_constraintBottom_toBottomOf="@id/spacer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/spacer"
+        android:layout_width="1dp"
+        android:layout_height="16dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/topBar"
+        app:layout_constraintEnd_toStartOf="@+id/topBar"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/topBar"
+        app:layout_constraintTop_toBottomOf="@+id/introHeader" />
+
+    <TextView
+        android:id="@+id/introHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Log - In"
+        android:textColor="?attr/onEdgeTop"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/topBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/topBar" />
+
+    <Button
+        android:id="@+id/introButtonTest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttons_secondary"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="testIntro"
+        android:text="Intro überspringen&#10;(Testmodus)"
+        android:textColor="?attr/onEdgeBottom"
+        android:textColorLink="?attr/onEdgeBottom"
+        android:textCursorDrawable="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introButton" />
+
+    <TextView
+        android:id="@+id/introUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="right"
+        android:text="Nutzername:"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/introUsernameEdit"
+        app:layout_constraintEnd_toStartOf="@+id/introUsernameEdit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/introPassword"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="right"
+        android:text="Passwort:"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBaseline_toBaselineOf="@+id/introPasswordEdit"
+        app:layout_constraintEnd_toEndOf="@+id/introUsername"
+        app:layout_constraintStart_toStartOf="@+id/introUsername" />
+
+    <EditText
+        android:id="@+id/introUsernameEdit"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:nextFocusDown="@id/introPasswordEdit"
+        android:singleLine="true"
+        android:textColor="?attr/onEdgeBottom"
+        android:textColorHighlight="?attr/onEdgeBottom"
+        android:textColorHint="?attr/onEdgeBottom"
+        android:textColorLink="?attr/onEdgeBottom"
+        android:textCursorDrawable="@drawable/cursor_color_secondary"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/introPasswordEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/introUsername" />
+
+    <EditText
+        android:id="@+id/introPasswordEdit"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="?attr/onEdgeBottom"
+        android:textColorHighlight="?attr/onEdgeBottom"
+        android:textColorHint="?attr/onEdgeBottom"
+        android:textColorLink="?attr/onEdgeBottom"
+        android:textCursorDrawable="@drawable/cursor_color_secondary"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/introUsernameEdit"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/introUsernameEdit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/introText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@color/transparent"
+        android:gravity="center_horizontal"
+        android:text="Gib zuerst die Anmeldedaten des Vertretungsplanes ein."
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/introUsernameEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/introButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/buttons_secondary"
+        android:gravity="center_horizontal|center_vertical"
+        android:onClick="introButton"
+        android:text="Anmelden"
+        android:textColor="?attr/onEdgeBottom"
+        android:textColorLink="?attr/onEdgeBottom"
+        android:textCursorDrawable="?attr/onEdgeBottom"
+        android:textSize="20sp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/introPasswordEdit" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

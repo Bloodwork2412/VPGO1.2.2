@@ -1,0 +1,989 @@
+<html lang="de"><head>
+        <meta charset="utf-8">
+        <title>Vertretungsplan 18.12.2019 - Gymnnasium Odenthal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="msapplication-TileImage" content="/img/icon-144.png">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css" media="screen">
+        <link href="/css/style.css?v2" rel="stylesheet" type="text/css" media="screen">
+        <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+        <link href="/img/icon.png" rel="apple-touch-icon">
+        <link href="/img/icon-72.png" rel="apple-touch-icon" sizes="72x72">
+        <link href="/img/icon-114.png" rel="apple-touch-icon" sizes="114x114">
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button class="navbar-toggle" aria-expanded="false" aria-controls="navbar" type="button" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                                        <a class="navbar-brand" href="/god">Gymnnasium Odenthal</a>
+                                    </div>
+                <div class="collapse navbar-collapse" id="navbar">
+                                        <ul class="nav navbar-nav">
+                                                <li class="active">
+                            <a href="/god/2019-12-18">
+                                Mi 18.12, v9</a>
+                        </li>
+                                                <li>
+                            <a href="/god/2019-12-19">
+                                Do 19.12, v9</a>
+                        </li>
+                                                <li>
+                            <a href="/god/2019-12-20">
+                                Fr 20.12, v7</a>
+                        </li>
+                                            </ul>
+                                    </div>
+            </div>
+        </nav>
+        <div class="container">
+
+<form class="search-form">
+    <div class="form-group has-feedback">
+        <input class="form-control" type="text" placeholder="Fach, Klasse, Lehrer suchen..." autocomplete="off">
+        <span class="glyphicon glyphicon-remove form-control-feedback clear-filter"></span>
+    </div>
+</form>
+
+<h1>Vertretungsplan für Mittwoch, den 18.03.2020</h1>
+<p>
+    Version: <strong>11</strong>,
+    letzte Änderung: 18.03, 12:00 Uhr
+</p>
+
+<div class="alert alert-info">
+    Hier werden die Nachrichten des heutigen Tages angezeigt. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>Art</th>
+                <th>St<span class="hidden-xs">un</span>d<span class="hidden-xs">e</span></th>
+                <th>Fach</th>
+                <th class="hidden-xs">Vertreter</th>
+                <th>Klasse</th>
+                <th class="hidden-xs">Raum</th>
+                <th class="hidden-xs">statt</th>
+                <th class="hidden-xs">Bemerkung</th>
+                <th class="visible-xs col-details">&nbsp;</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-index="BLU 05D E">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">1</td>
+                <td class="data-subject">MU G1</td>
+                <td class="hidden-xs data-agent">DAU</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">128</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="RAI 08B E">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">IF L1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">256          </td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="WB 06A KU">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">10</td>
+                <td class="data-subject">SP G4</td>
+                <td class="hidden-xs data-agent">Entfall</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">512</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SOM 05D E">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">11</td>
+                <td class="data-subject">SP G4</td>
+                <td class="hidden-xs data-agent">Entfall</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">512</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="STE 08B E">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">2</td>
+                <td class="data-subject">E</td>
+                <td class="hidden-xs data-agent">STE</td>
+                <td class="data-form">08B</td>
+                <td class="hidden-xs data-room">919</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="SWE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">2</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SWE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="WB 06A KU">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">2</td>
+                <td class="data-subject">KU</td>
+                <td class="hidden-xs data-agent">WB</td>
+                <td class="data-form">06A</td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="GAH  ">
+                <td class="data-type">Pausenaufsicht</td>
+                <td class="data-hour">2 / 3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">GAH</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">NB1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="BEC  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">BEC</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">917</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF D  G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">D  G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">917</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF D  G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">D  G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">C3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF M  G1">
+                <td class="data-type">Sondereinsatz</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">M  G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">109</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF M  G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">M  G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF E5 G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">E5 G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">626</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Aufgaben wurden im Unterricht gestellt</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q1 KU L1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">KU L1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q2 KU L1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">KU L1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">505_KU1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="JB  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">JB</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">C3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="KOE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">KOE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">C4</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="RAI  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">RAI</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">626</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="RON Q2 D  L1">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">D  L1</td>
+                <td class="hidden-xs data-agent">RON</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">108</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SR 06A SP">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject">SP</td>
+                <td class="hidden-xs data-agent">SR</td>
+                <td class="data-form">06A</td>
+                <td class="hidden-xs data-room">TH2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="SWB  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SWB</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">109</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">3</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SWE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="BEC  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">BEC</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">917</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="BN 06D GE">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">GE</td>
+                <td class="hidden-xs data-agent">BN</td>
+                <td class="data-form">06D</td>
+                <td class="hidden-xs data-room">811</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q1 KU L1">
+                <td class="data-type">Sondereinsatz</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">KU L1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF D  G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">D  G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">917</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF D  G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">D  G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">C3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF M  G1">
+                <td class="data-type">Sondereinsatz</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">M  G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">109</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF M  G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">M  G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF E5 G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">E5 G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">626</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Aufgaben wurden im Unterricht gestellt</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q2 KU L1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">KU L1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">505_KU1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="GET Q1 D  L2">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">D  L2</td>
+                <td class="hidden-xs data-agent">GET</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">612_Ch1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="HA 06A SP">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">SP</td>
+                <td class="hidden-xs data-agent">HA</td>
+                <td class="data-form">06A</td>
+                <td class="hidden-xs data-room">815</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="JB  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">JB</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">C3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="KOE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">KOE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">C4</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="LDR 09C F6  1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">F6  1</td>
+                <td class="hidden-xs data-agent">LDR</td>
+                <td class="data-form">09C</td>
+                <td class="hidden-xs data-room">817</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">AB`s machen, Vok.lernen des Textes</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="RAI  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">RAI</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">626</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="RON Q2 D  L1">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject">D  L1</td>
+                <td class="hidden-xs data-agent">RON</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">108</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWB  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SWB</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">109</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">4</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SWE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="BEC 07C SP">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject">SP</td>
+                <td class="hidden-xs data-agent">BEC</td>
+                <td class="data-form">07C</td>
+                <td class="hidden-xs data-room">TH4</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="KOE  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">KOE</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">C3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="LU 09D F6  3">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject">F6  3</td>
+                <td class="hidden-xs data-agent">LU</td>
+                <td class="data-form">09D</td>
+                <td class="hidden-xs data-room">817</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">KA wird geschrieben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="MO 05D KU">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject">KU</td>
+                <td class="hidden-xs data-agent">MO</td>
+                <td class="data-form">05D</td>
+                <td class="hidden-xs data-room">505_KU1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SOM  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SOM</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWE 06D KU">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject">KU</td>
+                <td class="hidden-xs data-agent">SWE</td>
+                <td class="data-form">06D</td>
+                <td class="hidden-xs data-room">512_KU3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="VIS 08B GE">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">5</td>
+                <td class="data-subject">GE</td>
+                <td class="hidden-xs data-agent">VIS</td>
+                <td class="data-form">08B</td>
+                <td class="hidden-xs data-room">919</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="Entfall 07B F6  2">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">F6  2</td>
+                <td class="hidden-xs data-agent">Entfall</td>
+                <td class="data-form">07B</td>
+                <td class="hidden-xs data-room">514</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">AB`s und Checkliste bei Fr.Struwe im Sekretariat!!</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF E5 G2">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">E5 G2</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">109</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="JB 05C SP">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">SP</td>
+                <td class="hidden-xs data-agent">JB</td>
+                <td class="data-form">05C</td>
+                <td class="hidden-xs data-room">TH4</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SLZ  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">SLZ</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWB 05D KU">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">KU</td>
+                <td class="hidden-xs data-agent">SWB</td>
+                <td class="data-form">05D</td>
+                <td class="hidden-xs data-room">505_KU1</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="SWE 06D KU">
+                <td class="data-type">Raum-Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">KU</td>
+                <td class="hidden-xs data-agent">SWE</td>
+                <td class="data-form">06D</td>
+                <td class="hidden-xs data-room">512_KU3</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="VIS 08B GE">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">6</td>
+                <td class="data-subject">GE</td>
+                <td class="hidden-xs data-agent">VIS</td>
+                <td class="data-form">08B</td>
+                <td class="hidden-xs data-room">919</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Vertretungslehrer verfügt über Aufgaben</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="OY  ">
+                <td class="data-type">Pausenaufsicht</td>
+                <td class="data-hour">6 / 7</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">OY</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">WP/Bus</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="OY  ">
+                <td class="data-type">Entfall</td>
+                <td class="data-hour">6 / 7</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">OY</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">WP/Bus</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA EF KU G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">7</td>
+                <td class="data-subject">KU G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">EF</td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="RON  ">
+                <td class="data-type">Klausur</td>
+                <td class="data-hour">7</td>
+                <td class="data-subject"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-agent">RON</td>
+                <td class="data-form"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-room">507_KU2</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q1 H0 G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">8</td>
+                <td class="data-subject">H0 G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">EXT</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q2 E5 G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">8</td>
+                <td class="data-subject">E5 G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">611</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Material am Sekretariat, Inhalte erarbeiten</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q1 H0 G1">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">9</td>
+                <td class="data-subject">H0 G1</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q1</td>
+                <td class="hidden-xs data-room">EXT</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice"><span class="text-muted">---</span></td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right "></span>
+                </td>
+            </tr>
+            <tr data-index="evA Q2 E5 G4">
+                <td class="data-type">Vertretung</td>
+                <td class="data-hour">9</td>
+                <td class="data-subject">E5 G4</td>
+                <td class="hidden-xs data-agent">evA</td>
+                <td class="data-form">Q2</td>
+                <td class="hidden-xs data-room">611</td>
+                <td class="hidden-xs data-instead"><span class="text-muted">---</span></td>
+                <td class="hidden-xs data-notice">Die Aufgaben im Mat. müssen nicht bearbeitet werd</td>
+                <td class="visible-xs col-details">
+                    <span class="glyphicon glyphicon-circle-arrow-right has-notice"></span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="hidden filter-notice" aria-hidden="true">
+    <p>
+        <strong>Achtung:</strong> Es wurde ein Filter auf <code class="filter"></code> gesetzt, es wird nur ein Teil des
+        Vertretungsplans angezeigt. <a class="clear-filter" href="#">Filter entfernen</a>.
+    </p>
+</div>
+
+<p>
+    <a href="/god">Übersicht aller Vertretungspläne</a>
+</p>
+
+<div tabindex="-1" class="modal fade" id="details-modal" role="dialog" aria-hidden="true" aria-labelledby="details-modal-label">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" aria-label="Close" type="button" data-dismiss="modal"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title" id="details-modal-label">Details</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-condensed">
+                    <tbody>
+                        <tr class="first">
+                            <td class="col-label">Art</td>
+                            <td><span class="data-type"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Stunde</td>
+                            <td><span class="data-hour"></span>. Stunde</td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Klasse</td>
+                            <td><span class="data-form"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Fach</td>
+                            <td><span class="data-subject"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Vertreter</td>
+                            <td><span class="data-agent"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Raum</td>
+                            <td><span class="data-room"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">statt</td>
+                            <td><span class="data-instead"></span></td>
+                        </tr>
+                        <tr>
+                            <td class="col-label">Bemerkung</td>
+                            <td><span class="data-notice"></span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+            <hr>
+            <footer>
+                <p>Powered by <a href="http://vpsystems.de/">VPSystems</a>, alle Rechte vorbehalten.</p>
+            </footer>
+        </div>
+
+        <!--[if lt IE 9]><script type="text/javascript" src="/js/html5shiv.js"></script><![endif]-->
+        <!--[if lt IE 9]><script type="text/javascript" src="/js/respond.min.js"></script><![endif]-->
+        <script src="//track.vpsystems.de/track.js" defer="" type="text/javascript" async=""></script><script src="/js/jquery.min.js" type="text/javascript"></script>
+        <script src="/js/jquery.cookie.js" type="text/javascript"></script>
+        <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/js/show-details.js?v2" type="text/javascript"></script>
+
+        <script type="text/javascript">
+            var _paq = _paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+                var u="//track.vpsystems.de/";
+                _paq.push(['setTrackerUrl', u+'track.php']);
+                _paq.push(['setSiteId', 1]);
+                var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+                g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'track.js'; s.parentNode.insertBefore(g,s);
+            })();
+        </script>
+        <noscript>&lt;p&gt;&lt;img src="//track.vpsystems.de/track.php?idsite=1" style="border:0;" alt="" /&gt;&lt;/p&gt;</noscript>
+
+
+</body></html>

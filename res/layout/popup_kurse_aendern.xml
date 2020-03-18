@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Noel Billing in 2019
+  ~ Copyright (c)  08/14/2019. All rights reserved.
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_kurse_aendern"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/popup_all_corners_rounded"
+    android:paddingStart="16dp"
+    android:paddingLeft="16dp"
+    android:paddingEnd="16dp"
+    android:paddingRight="16dp">
+
+    <Button
+        android:id="@+id/p2PopupSpeichern"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/p2PopupAbbruch"
+        android:layout_alignBottom="@+id/p2PopupAbbruch"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/button_primary"
+        android:text="Speichern"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/p2PopupAbbruch"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p2PopupKurs"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/button_primary"
+        android:text="Abbrechen"
+        android:textColor="?attr/onEdgeBottom"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/p2PopupKurs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/p2PopupText"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:gravity="center_horizontal"
+        android:inputType="text"
+        android:maxLength="5"
+        android:maxLines="1"
+        android:textColor="?attr/onEdgeTop"
+        android:textCursorDrawable="@drawable/cursor_color_accent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/p2PopupText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/p2PopupAbbruch"
+        android:layout_alignLeft="@id/p2PopupAbbruch"
+        android:layout_alignEnd="@id/p2PopupSpeichern"
+        android:layout_alignRight="@id/p2PopupSpeichern"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:textColor="?attr/onEdgeTop"
+        android:textSize="18sp" />
+
+</RelativeLayout>

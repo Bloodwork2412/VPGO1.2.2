@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00c8c8c8</color>
+
+    <color name="dim">#4d000000</color>
+    <color name="errorRed">#b00020</color>
+    <color name="gray">#555555</color>
+    <color name="lightGray">#ededed</color>
+
+    <color name="edgeGreen1">#96c93d</color>
+    <color name="edgeBlue1">#00b09b</color>
+    <color name="diffGreen1">#b3e460</color>
+    <color name="diffBlue1">#49c0db</color>
+    <color name="pastel">#f5f4e0</color>
+
+    <color name="edgeGreen">#28ed94</color>
+    <color name="edgeBlue">#1cccb8</color>
+    <color name="diffGreen">#bff9ef</color>
+    <color name="diffBlue">#c1f1fc</color>
+    <color name="darkBlue">#08acde</color>
+    <color name="tableGray">#d6d6d6</color>
+
+    <color name="darkerLightGreen">#34a175</color>
+    <color name="darkerDarkGreen">#319c81</color>
+    <color name="darkerEdgeGreen">#47968d</color>
+    <color name="darkerFontWhite">#e3e3e3</color>
+    <color name="darkGreenBlack">#2d3632</color>
+    e3e3e3
+
+</resources>
